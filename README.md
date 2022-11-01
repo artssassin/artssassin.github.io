@@ -533,8 +533,8 @@
                    <p>&nbsp;</p>
                    <ol>
                        <li>Proyecto Nuevos Metaversos</li>
-                       <li><a href="https://github.com/artssassin/artssassin.github.io/blob/main/proyectoreestetica.html" target="_blank" rel="noopener">Proyecto Re-est&eacute;tica</a></li>
-                       <li><a href="https://github.com/artssassin/artssassin.github.io/blob/main/proyectohipersticion.html" target="_blank" rel="noopener">Proyecto Hiperstici&oacute;n de Paz</a></li>
+                       <li><a href="https://www.artssassin.com/proyectoreestetica.html" target="_blank" rel="noopener">Proyecto Re-est&eacute;tica</a></li>
+                       <li><a href="https://www.artssassin.com/proyectohipersticion.html" target="_blank" rel="noopener">Proyecto Hiperstici&oacute;n de Paz</a></li>
                    </ol>
                    
                </article>
