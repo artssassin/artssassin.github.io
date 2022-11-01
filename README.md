@@ -588,7 +588,7 @@
                 <li><a href="#imahybrid">Hybrid Art</a></li>
                 <li><a href="#videoreestetica">Video Reestetica</a></li>
                 <li><a href="#audiopaz">Audio de Paz</a></li>
-                
+                 
             </ol>
             
             
