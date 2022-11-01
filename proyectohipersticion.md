@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
     <head>
         <title>Web simplificada del poyecto «Hipersticion de paz» </title>
@@ -69,9 +69,9 @@
            <h2><span style="font-weight: 400;">Es hora de cerrar las puertas de Jano otra vez.</span></h2>
            <p><span style="font-weight: 400;">Jano (Ianus) en la mitolog&iacute;a romana, es el dios de las puertas, los comienzos y los finales. Por eso le fue consagrado el primer mes del a&ntilde;o (January). Jano es representado con dos caras, como las monedas, mirando hacia ambos lados de su perfil y no tiene equivalente en la mitolog&iacute;a griega.</span></p>
            <p><span style="font-weight: 400;">Cuando los sabinos intentaron tomar el Capitolio romano, Jano hizo brotar aguas hirvientes sobre los enemigos, repeli&eacute;ndolos. Por ello se le invocaba al comenzar una guerra, y mientras esta durara, las puertas de su templo permanec&iacute;an siempre abiertas, con el fin de que acudiera en ayuda de la ciudad; cuando Roma estaba en paz, las puertas se cerraban.</span></p>
-           <p><span style="font-weight: 400;">Al igual que Prometeo, Jano es una clase de h&eacute;roe cultural, ya que se le atribuye, entre otras cosas, la invenci&oacute;n del dinero, la navegaci&oacute;n y la agricultura. Estas son realmente los motivos reales por los cuales la puerta de Jano permanece abierta, pero tambi&eacute;n los instrumentos por otros medios de esta nueva guerra h&iacute;brida mundial, que hay que sellar pronto para que no escale a un nivel militar.</span></p>
+           <p><span style="font-weight: 400;">Al igual que Prometeo, Jano es una clase de h&eacute;roe cultural, ya que se le atribuye, entre otras cosas, la invenci&oacute;n del dinero, la navegaci&oacute;n y la agricultura. Estos son realmente los motivos reales por los cuales la puerta de Jano permanece abierta, pero tambi&eacute;n los instrumentos por otros medios de esta nueva guerra h&iacute;brida mundial, que hay que sellar pronto para que no escale a un nivel militar.</span></p>
            <p>&nbsp;</p>
-               <p><img id="imageeshoradecerrarjano" src="https://i.seadn.io/gae/zmoEzm5m41TyY5CxRhk9UhAQ8r7lYlUVzSUqUDwTiHFJrjVc8AIdBaNY83ZgygSnl7yPhsPs2lGVvlrChB2XsARyMgEmI2Q4vKUe?auto=format&amp;w=1000" alt="" width="500" height="500" />&nbsp;</p>
+               <p><img id="imageeshoradecerrarjano" src="https://ipfs.io/ipfs/bafybeifsxovo6rrz76fpb4xtx6gqdehmdjgdx6oxq2owvyemvrafpr4cx4/image.jpeg" alt="" width="500" height="500" />&nbsp;</p>
            </section>
            <p>&nbsp;</p>
            
