@@ -1,4 +1,5 @@
-<!ELEMENT NFTS (NFT*)> 
+<!ELEMENT NFTS (abstract?,NFT*)> 
+<!ELEMENT abstract (#PCDATA)>
 <!ELEMENT NFT (author+,date?,contract?,id?,collection?,web*,IPFS?,description?,comments*)>
 <!ELEMENT author (#PCDATA)>
 <!ELEMENT date (year|(year,month)|(year,month,day))>
