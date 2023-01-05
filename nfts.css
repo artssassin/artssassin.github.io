@@ -13,9 +13,22 @@ NFTS {
 
 
 
+abstract { color: red;
+	font-size : 15px;
+	font-weight : bold;
+	background : black ;
+    content: '\a' attr(abstract)  '\a';
+	white-space: pre}
+	
+abstract:after { color: red;
+	font-size : 15px;
+	font-weight : bold;
+	background : black ;
+    content: '\a' ;
+	white-space: pre}
 
 
-
+	
 
 NFT:before { color: yellow;
 	font-size : 40px;
@@ -60,6 +73,7 @@ contract, id, collection, web, IPFS, frozen {
 }
 	
 NFT:after { content: '\a' 'Blockchain: ' attr(blockchain) '\a' '' attr(standard) '\a'; white-space: pre }
+
 
 
 
