@@ -1,0 +1,66 @@
+NFTS {
+	color: white;
+	background-color : blue;
+	width: 100%;
+	font-family: "Courier New";
+  text-align: justify;
+  line-height: 160%;
+  margin: auto;
+  padding: 45px;
+  width: 900px;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+NFT:before { color: yellow;
+	font-size : 40px;
+	font-weight : bold;
+	content: '\a''NFT name: ' attr(name)  '\a';
+	white-space: pre}
+	
+	author:before { content: attr(author) "Author: ";}
+	author {
+	font-size : 30px;
+	font-weight : bold;
+	
+	
+
+	white-space: pre;
+	
+}
+	
+	date:before {  white-space: pre;   content: '\a' attr(date) "Date: ";}
+	month:after  { content: "th month " attr(month) "   ";}
+	year:before  { content: "In year " attr(year) "   ";}
+	year:after  { content:  attr(year) "   "; }
+	day:after  { content: "th day " attr(month) "   ";}
+
+    contract:before  { content: "Smart contract: " attr(contract) "   ";}
+	contract:after  { content:  attr(contract) "   "; }
+	id:before  { content: "Token ID: " attr(id) "   ";}
+	id:after  { content:  attr(contract) "   "; }
+	collection:before  { content: "Collection: " attr(collection) "   ";}
+	collection:after  { content:  attr(collection) "   "; }
+	web:before  { content: "Web: " attr(web) "   ";}
+	web:after  { content:  attr(web) "   "; }
+	IPFS:before  { content: "IPFS: " attr(IPFS) "   ";}
+	IPFS:after  { content:  attr(IPFS) "   "; }
+	description:before  { content: "\a" "Description: " attr(description) "   ";}
+	description:after  { content:  attr(description) "   " "\a" ; white-space: pre  }
+	comments:before  { content: "\a" "Comment (" attr(type) "): " attr(comments) "   ";}
+	comments:after  { content:  attr(comments) "   " "\a" ; white-space: pre }
+	
+contract, id, collection, web, IPFS, frozen {
+	display : block;
+}
+	
+NFT:after { content: '\a' 'Blockchain: ' attr(blockchain) '\a' '' attr(standard) '\a'; white-space: pre }
+
+
+
+

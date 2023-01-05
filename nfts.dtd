@@ -1,0 +1,23 @@
+<!ELEMENT NFTS (NFT*)> 
+<!ELEMENT NFT (author+,date?,contract?,id?,collection?,web*,IPFS?,description?,comments*)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT date (year|(year,month)|(year,month,day))>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT month (#PCDATA)>
+<!ELEMENT day (#PCDATA)>
+<!ELEMENT contract (#PCDATA)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT collection (#PCDATA)>
+<!ELEMENT web (#PCDATA)>
+<!ELEMENT IPFS (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT comments (#PCDATA)>
+
+
+
+<!ATTLIST NFT name CDATA #REQUIRED>
+<!ATTLIST NFT blockchain (ethereum|polygon|solana) "ethereum">
+<!ATTLIST NFT standard (ERC-1155|ERC-721) #IMPLIED>
+<!ATTLIST NFT frozen (yes|no) #IMPLIED>
+<!ATTLIST comments type (critic|opinion|news)  "critic" >
+
