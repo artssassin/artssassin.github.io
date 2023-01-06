@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE NFT SYSTEM "https://www.artssassin.com/nft.dtd">
+
+
+
+<NFT name="ART" blockchain="ethereum" frozen="no">
+    
+    
+    <author>Artssassin</author> <author>Joe Gatnau</author> <collection>Filosofia</collection>
+    
+    
+</NFT>
+
+
