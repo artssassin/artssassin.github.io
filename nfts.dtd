@@ -24,4 +24,3 @@
 <!ATTLIST NFT standard (ERC-1155|ERC-721) #IMPLIED>
 <!ATTLIST NFT frozen (yes|no) #IMPLIED>
 <!ATTLIST comments type (critic|opinion|news)  "critic" >
-
