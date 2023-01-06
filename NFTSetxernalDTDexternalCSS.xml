@@ -16,6 +16,7 @@
     <author>Artssassin</author> <date><year>2022</year><month>8</month><day>4</day></date> <contract>366352t6gshjsgdd</contract> <id> 3344</id> <collection>Filosofia</collection>
     <web> www.artssassin.com</web> <IPFS>ipfs/bafybeicndsidcgk5alt6eyzjpq4nzfxdxmlttwmw3fy5qgt3j64ab4sgpq/image.png</IPFS> 
    <description> Cómo nació la cita de NFTS</description> <comments type="critic" > El mejor</comments> 
+
 </NFT>
 
 
@@ -23,9 +24,15 @@
     
     
     <author>Artssassin</author>  <collection>Filosofia</collection>
+    <metadata>
+        <title>Tema</title>
+        <value>Filosofia</value>
+    </metadata>
+    
     <comments> Nice</comments>
     <comments type="opinion">Mi NFT favorito</comments>
-    
+
+
 </NFT>
 
 </NFTS>
