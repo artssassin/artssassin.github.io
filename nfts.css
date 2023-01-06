@@ -65,7 +65,7 @@ NFT:before { color: yellow;
 	IPFS:after  { content:  attr(IPFS) "   "; }
 	description:before  { content: "\a" "Description: " attr(description) "   ";}
 	description:after  { content:  attr(description) "   " "\a" ; white-space: pre  }
-	metadata:before { content: "\a" "A metadata category and value" attr(title)  "" attr(value) "  is ";}
+	metadata:before { content: "\a" "A metadata category and value" attr(title)   attr(value) "  is ";}
     metadata:after  { content:  "   " "\a" ; white-space: pre }
 	comments:before  { content: "\a" "Comment (" attr(type) "): " attr(comments) "   ";}
 	comments:after  { content:  attr(comments) "   " "\a" ; white-space: pre }
@@ -75,6 +75,7 @@ contract, id, collection, web, IPFS, frozen {
 }
 	
 NFT:after { content: '\a' 'Blockchain: ' attr(blockchain) '\a' '' attr(standard) '\a'; white-space: pre }
+
 
 
 
