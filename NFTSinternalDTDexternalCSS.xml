@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="nfts.css"?>
+<?xml-stylesheet type="text/css" href="https://www.artssassin.com/nfts.css"?>
 
 <!DOCTYPE NFTS [
 <!ELEMENT NFTS (abstract?,NFT*)> 
 <!ELEMENT abstract (#PCDATA)>
-<!ELEMENT NFT (author+,date?,contract?,id?,collection?,web*,IPFS?,description?,comments*)>
+<!ELEMENT NFT (author+,date?,contract?,id?,collection?,web*,IPFS?,description?,metadata*,comments*)>
 <!ELEMENT author (#PCDATA)>
 <!ELEMENT date (year|(year,month)|(year,month,day))>
 <!ELEMENT year (#PCDATA)>
@@ -16,6 +16,9 @@
 <!ELEMENT web (#PCDATA)>
 <!ELEMENT IPFS (#PCDATA)>
 <!ELEMENT description (#PCDATA)>
+<!ELEMENT metadata (title,value)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT value (#PCDATA)>
 <!ELEMENT comments (#PCDATA)>
 
 
@@ -40,9 +43,42 @@
     <author>Artssassin</author>  
     <contract>879438943</contract> 
     <collection>Filosofia</collection>
+    <metadata>
+        <title>Type</title>
+        <value>Conceptual</value>
+    </metadata>
+    <metadata>
+        <title>Topic</title>
+        <value>MetaNFT</value>
+    </metadata>
+<comments>Conceptual, muy conceptual</comments>
     
     
+</NFT>
+
+<NFT name="Museo de Arte Total">
+    <author>Artssassin</author>
+    <collection>Registre</collection>
+    <description>Un proyecto museográfico</description>
+    <metadata>
+        <title>Physical</title>
+        <value>Yes</value>
+      
+    </metadata>
+    <metadata>
+        <title>Place</title>
+        <value>MNAC</value>
+        
+    </metadata>
     
-</NFT></NFTS>
+    <metadata>
+        <title>Budget</title>
+        <value>15.000</value>
+    </metadata>
+    <comments type="opinion">Hay que proporcionar más detalles</comments>
+    <comments type="critic">Needs translation</comments>
+</NFT>
     
 
+</NFTS>
+    
