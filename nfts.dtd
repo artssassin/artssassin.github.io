@@ -1,6 +1,6 @@
 <!ELEMENT NFTS (abstract?,NFT*)> 
 <!ELEMENT abstract (#PCDATA)>
-<!ELEMENT NFT (author+,date?,contract?,id?,collection?,web*,IPFS?,description?,comments*)>
+<!ELEMENT NFT (author+,date?,contract?,id?,collection?,web*,IPFS?,description?,metadata*,comments*)>
 <!ELEMENT author (#PCDATA)>
 <!ELEMENT date (year|(year,month)|(year,month,day))>
 <!ELEMENT year (#PCDATA)>
@@ -12,6 +12,9 @@
 <!ELEMENT web (#PCDATA)>
 <!ELEMENT IPFS (#PCDATA)>
 <!ELEMENT description (#PCDATA)>
+<!ELEMENT metadata (title,value)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT value (#PCDATA)>
 <!ELEMENT comments (#PCDATA)>
 
 
