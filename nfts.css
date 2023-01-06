@@ -65,7 +65,7 @@ NFT:before { color: yellow;
 	IPFS:after  { content:  attr(IPFS) "   "; }
 	description:before  { content: "\a" "Description: " attr(description) "   ";}
 	description:after  { content:  attr(description) "   " "\a" ; white-space: pre  }
-	title:before value:before  { content: "\a" "A metadata category and value" attr(title)  "" attr(value) "  is "; white-space: pre}
+	title:before { content: "\a" "A metadata category and value" attr(title)  "" attr(value) "  is "; white-space: pre}
 	comments:before  { content: "\a" "Comment (" attr(type) "): " attr(comments) "   ";}
 	comments:after  { content:  attr(comments) "   " "\a" ; white-space: pre }
 	
