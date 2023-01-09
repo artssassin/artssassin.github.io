@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="https://www.artssassin.com/collectionnfts.css"?>
+
+
+<!DOCTYPE NFTS SYSTEM "https://www.artssassin.com/collectionnfts.dtd">
+
+
+
+<NFTS> 
+
+<abstract> Un ejemplo documento XML acerca de NFTs y colecciones de NFTs validado con una DTD etxerna y con CSS externo </abstract>
+
+<NFT name="ART" blockchain="ethereum" frozen="no" standard="ERC-1155">
+    
+    
+    <author>Artssassin</author> <date><year>2022</year><month>8</month><day>4</day></date> <contract>366352t6gshjsgdd</contract> <id> 3344</id> <collection>Filosofia</collection>
+    <web> www.artssassin.com</web> <IPFS>ipfs/bafybeicndsidcgk5alt6eyzjpq4nzfxdxmlttwmw3fy5qgt3j64ab4sgpq/image.png</IPFS> 
+   <description> Cómo nació la cita de NFTS</description> <comments type="critic" > El mejor</comments> 
+
+</NFT>
+
+
+<NFT name="ARTS" blockchain="ethereum" frozen="no">
+    
+    
+    <author>Artssassin</author>  <collection>Filosofia</collection>
+    <metadata>
+        <title>Tema</title>
+        <value>Filosofia</value>
+    </metadata>
+    
+    <comments> Nice</comments>
+    <comments type="opinion">Mi NFT favorito</comments>
+
+
+</NFT>
+
+<COLLECTION colname="FILOSOFIA">
+    <colauthor>ARTSSASSIN</colauthor>
+    <coldate> <colyear>2020</colyear></coldate>
+    <colblockchain>ETHEREUM</colblockchain>
+    <colblockchain>MATIC</colblockchain>
+    <colkind>Conceptual Art</colkind>
+    <colweb>www.artssassin.com</colweb>
+    <coldescription>A collection of conceptual artoworks expressed trought NFTs</coldescription>
+   <colitems>
+       <colexistingitems>104</colexistingitems>
+       <colmaxitems>1000</colmaxitems>
+   </colitems>
+    <colcomments type="critic">This collection is unfinished! Shit collection! </colcomments>
+    
+</COLLECTION>
+    
+</NFTS>

@@ -1,0 +1,130 @@
+NFTS {
+	color: white;
+	background-color : blue;
+	width: 100%;
+	font-family: "Courier New";
+  text-align: justify;
+  line-height: 160%;
+  margin: auto;
+  padding: 45px;
+  width: 900px;
+  justify-content: center;
+}
+
+
+
+abstract { color: red;
+	font-size : 15px;
+	font-weight : bold;
+	background : black ;
+    content: '\a' attr(abstract)  '\a';
+	white-space: pre}
+	
+abstract:after { color: red;
+	font-size : 15px;
+	font-weight : bold;
+	background : black ;
+    content: '\a' ;
+	white-space: pre}
+
+
+	
+
+NFT:before { color: yellow;
+	font-size : 40px;
+	font-weight : bold;
+	content: '\a''NFT name: ' attr(name)  '\a';
+	white-space: pre}
+	
+	author:before { content: attr(author) "Author: ";}
+	author {
+	font-size : 30px;
+	font-weight : bold;
+	
+	
+
+	white-space: pre;
+	
+}
+	
+	date:before {  white-space: pre;   content: '\a' attr(date) "Date: ";}
+	month:after  { content: "th month " attr(month) "   ";}
+	year:before  { content: "In year " attr(year) "   ";}
+	year:after  { content:  attr(year) "   "; }
+	day:after  { content: "th day " attr(month) "   ";}
+
+    contract:before  { content: "Smart contract: " attr(contract) "   ";}
+	contract:after  { content:  attr(contract) "   "; }
+	id:before  { content: "Token ID: " attr(id) "   ";}
+	id:after  { content:  attr(contract) "   "; }
+	collection:before  { content: "Collection: " attr(collection) "   ";}
+	collection:after  { content:  attr(collection) "   "; }
+	web:before  { content: "Web: " attr(web) "   ";}
+	web:after  { content:  attr(web) "   "; }
+	IPFS:before  { content: "IPFS: " attr(IPFS) "   ";}
+	IPFS:after  { content:  attr(IPFS) "   "; }
+	description:before  { content: "\a" "Description: " attr(description) "   ";}
+	description:after  { content:  attr(description) "   " "\a" ; white-space: pre  }
+	metadata:before { content: "\a" "A metadata category and value" attr(title)   attr(value) "  is ";}
+    metadata:after  { content:  "   " "\a" ; white-space: pre }
+	comments:before  { content: "\a" "Comment (" attr(type) "): " attr(comments) "   ";white-space: pre }
+	comments:after  { content:  attr(comments) "   " "\a" ; white-space: pre }
+	
+date,contract, id, collection, web, IPFS, frozen, description, metadata, comments {
+	display : block;
+}
+	
+NFT:after { content: '\a' 'Blockchain: ' attr(blockchain) '\a' '' attr(standard) '\a'; white-space: pre }
+
+
+
+COLLECTION:before { color: yellow;
+	font-size : 40px;
+	font-weight : bold;
+	content: '\a''Collection name: ' attr(colname)  '\a';
+	white-space: pre}
+	
+	colauthor:before { content: attr(colauthor) "Author: ";}
+	colauthor {
+	font-size : 30px;
+	font-weight : bold;
+	
+	
+
+	white-space: pre;
+	
+}
+	
+	coldate:before {  white-space: pre;   content: '\a' attr(coldate) "Date: ";}
+	colmonth:after  { content: "th month " attr(colmonth) "   ";}
+	colyear:before  { content: "In year " attr(colyear) "   ";}
+	colyear:after  { content:  attr(colyear) "   "; }
+	colday:after  { content: "th day " attr(colmonth) "   ";}
+    colblockchain:before  { content:  "Blokchain: " attr(colblockchain) "   ";white-space: pre }
+	colkind:after  { content:  attr(colblockchain) "   "; }
+    colcontract:before  { content: "Smart contract: " attr(colcontract) "   ";}
+	colcontract:after  { content:  attr(colcontract) "   "; }
+	colcontractname:before  { content: "Contract name: " attr(colcontractname) "   ";}
+	colcontractname:after  { content:  attr(colcontractname) "   "; }
+	colweb:before  { content: "Web: " attr(colweb) "   ";}
+	colweb:after  { content:  attr(colweb) "   "; }
+	colkind:before  { content: "Kind: " attr(colkind) "   ";}
+	colkind:after  { content:  attr(colkind) "   "; }
+	colexistingtems:before  { content: "Existing items: " attr(colexistingitems) "   ";}
+	colexistingitems:after  { content: " existing items"; }
+	colmaxitems:before  { content: "Max items: " attr(colmaxitems) "   ";}
+	colmaxitems:after  { content:  attr(colmaxitems) "   "; }
+	coldescription:before  { content: "\a" "Description: " attr(coldescription) "   ";}
+	coldescription:after  { content:  attr(coldescription) "   " "\a" ; white-space: pre  }
+	
+	colcomments:before  { content: "\a" "Comment (" attr(type) "): " attr(colcomments) "   ";white-space: pre }
+	colcomments:after  { content:  attr(colcomments) "   " "\a" ; white-space: pre }
+	
+colblockchain, colcontract, colcontractname, colweb, colkind, colexistingitems, colmaxitems, coldescription, colcomments {
+	display : block;
+}
+	
+
+
+
+
