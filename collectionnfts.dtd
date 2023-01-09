@@ -19,7 +19,7 @@
 
 
 
-<!ELEMENT COLLECTION (colauthor+,coldate?,colcontract?,colcontractname?,colblockchain+,colkind*,colweb*,coldescription?,colitems?,colmaxitems?,colcomments*)>
+<!ELEMENT COLLECTION (colauthor+,coldate?,colcontract?,colcontractname?,colblockchain+,colkind*,colweb*,coldescription?,colitems?,colcomments*)>
 <!ELEMENT colauthor (#PCDATA)>
 <!ELEMENT coldate (colyear|(colyear,colmonth)|(colyear,colmonth,colday))>
 <!ELEMENT colyear (#PCDATA)>
@@ -47,5 +47,4 @@
 <!ATTLIST comments type (critic|opinion|news)  "critic" >
 
 <!ATTLIST COLLECTION colname CDATA #REQUIRED>
-<!ATTLIST COLLECTION blockchain (ethereum|polygon|solana) "ethereum">
 <!ATTLIST colcomments type (critic|opinion|news)  "critic" >
